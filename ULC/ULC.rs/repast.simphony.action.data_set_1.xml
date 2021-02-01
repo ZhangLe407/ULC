@@ -1,0 +1,36 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.5.0">
+  <name>Birth/Death</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-47868834</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map"/>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map">
+    <entry>
+      <string>BirthNumber</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>BirthNumber</id>
+        <dsClassName>com.qinshp.datasource.BirthNumberDataSource</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>DeathNumber</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>DeathNumber</id>
+        <dsClassName>com.qinshp.datasource.DeathNumberDataSource</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+  </customAggDataSources>
+</repast.simphony.data2.engine.DataSetDescriptor>

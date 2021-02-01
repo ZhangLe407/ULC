@@ -1,0 +1,36 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.5.0">
+  <name>Sex</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-47868834</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map"/>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map">
+    <entry>
+      <string>Gender_1</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>Gender_1</id>
+        <dsClassName>com.qinshp.datasource.Gender_1DataSource</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Gender_2</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>Gender_2</id>
+        <dsClassName>com.qinshp.datasource.Gender_2DataSource</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+  </customAggDataSources>
+</repast.simphony.data2.engine.DataSetDescriptor>

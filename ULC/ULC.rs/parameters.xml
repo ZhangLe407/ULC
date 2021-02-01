@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+	<parameter name="randomSeed" displayName="Default Random Seed"
+		type="int" defaultValue="__NULL__" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="moveInPopulationLimitRate" displayName="moveInPopulationLimitRate"
+		type="double" defaultValue="0.1" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="fertilityPolicy" displayName="fertilityPolicy"
+		type="double" defaultValue="2.0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="unemploymentRate" displayName="unemploymentRate"
+		type="double" defaultValue="0.5" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="moveDesireLimitRateMin" displayName="moveDesireLimitRateMin"
+		type="double" defaultValue="0.6" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="moveIncomeLimitMin" displayName="moveIncomeLimitMin"
+		type="double" defaultValue="187248.0" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="foreignResidentGrowthRate_up" displayName="foreignResidentGrowthRate_up"
+		type="double" defaultValue="0.05" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="foreignResidentGrowthRate_down" displayName="foreignResidentGrowthRate_down"
+		type="double" defaultValue="-0.05" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="employmentRate" displayName="employmentRate"
+		type="double" defaultValue="0.5" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="governmentToFacilityCoverageChange_up"
+		displayName="governmentToFacilityCoverageChange_up" type="double"
+		defaultValue="0.2" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="governmentToFacilityCoverageChange_down"
+		displayName="governmentToFacilityCoverageChange_down" type="double"
+		defaultValue="0.1" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+</parameters>
+
+
